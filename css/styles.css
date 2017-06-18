@@ -1,0 +1,69 @@
+* {
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  font-weight: bold;
+}
+main {
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+section {
+  text-align: center;
+}
+
+.title {
+  margin-top: 100px;
+}
+
+.title p {
+  margin: 0 auto;
+  width: 60%;
+}
+
+.regalo {
+  cursor: pointer;
+  -webkit-transition: width 1s;
+  transition: width 1s;
+  width: 300px;
+}
+
+.regalo:hover {
+  width: 320px;
+}
+
+article {
+  background-color: white;
+  border: 3px solid green;
+  margin: 80px auto;
+  padding: 40px 10px;
+  width: 60%;
+}
+
+article p, figure, div {
+  vertical-align: top;
+  margin: 0 auto;
+}
+
+article figure {
+ width: 35%;
+}
+
+article div {
+  width: 60%;
+}
+
+article img {
+  margin: 0 auto;
+  width: 70%;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.cupon-section {
+  display: none;
+}
